@@ -1,0 +1,106 @@
+.daohang {
+    width: 100%;
+    float: left;
+}
+.daohang nav{
+  width: 800PX;
+  margin: 0 auto;
+}
+.daohang nav ul{
+	margin-bottom:0px;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+ul.dropdown{ 
+  position: relative; 
+  width: 100%; 
+  
+}
+
+ul.dropdown li{ 
+  font-weight: bold; 
+  float: left; 
+  width: 100px; 
+  position: relative;
+
+}
+
+ul.dropdown a:hover{ 
+  color: #000; 
+}
+
+ul.dropdown li a { 
+  display: block; 
+  padding: 12px 8px;
+  color: #FFFFFF; 
+  position: relative; 
+  z-index: 2000; 
+  text-align: center;
+  text-decoration: none;
+  font-weight: 300;
+  transition: all 0.5s ease-out 0s;
+  text-shadow: 1px 2px 3px rgba(40, 95, 152, 1);
+}
+
+ul.dropdown li a:hover,
+ul.dropdown li a.hover{ 
+  background: rgba(40, 95, 152, 1);
+  position: relative;
+  color: #fff;
+}
+
+
+ul.dropdown ul{ 
+ display: none;
+ position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100px; 
+  z-index: 1000;
+}
+
+ul.dropdown ul li { 
+  font-weight: normal; 
+  background: rgba(40, 95, 145, 0.75);; 
+  color: #000; 
+  border-bottom: 1px solid #ccc; 
+}
+
+ul.dropdown ul li a{ 
+  display: block; 
+
+  background: rgba(241, 229, 229, 0) !important;
+} 
+
+ul.dropdown ul li a:hover{
+  display: block; 
+  background: #3498db !important;
+  color: #fff !important;
+} 
+
+.drop > a{
+  position: relative;
+}
+
+.drop > a:after{
+  content:"";
+  position: absolute;
+  right: 10px;
+  top: 40%;
+  border-left: 5px solid transparent;
+  border-top: 5px solid #FFF;
+  border-right: 5px solid transparent;
+  z-index: 999;
+}
+
+.drop > a:hover:after{
+  content:"";
+   border-left: 5px solid transparent;
+  border-top: 5px solid #fff;
+  border-right: 5px solid transparent;
+}
+

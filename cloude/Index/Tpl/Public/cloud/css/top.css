@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+/*系*/
+body {
+	margin:0;
+	font-size:16px;
+}
+
+.background{
+ background: url();
+  height:1040px;
+}
+.bot {
+    height: 82px;
+    position: relative;
+    float: left;
+}
+.background,.bot{
+ width: 1000px;
+ text-align: center;
+
+ background-repeat:no-repeat; 
+ margin: 0 auto;
+}
+.top {
+	height: 160px;
+	width:100%;
+	float:left;
+	position:relative;
+}
+.navi {
+	float: left;
+	position: relative;
+}
+.navi {
+	width: 53%;
+}
+.head-logo {
+	float: left;
+	position: inherit;
+}
+.xibiao{
+	cursor: pointer;
+}
+.yusi-logo,.xibiao {
+
+	display: inline-block;
+	
+	font-family: "Handlee", "华文行楷", "Microsoft Yahei", arial, sans-serif;
+	font-weight: 100;
+	transition: all 1s ease-out 0s;
+}
+.yusi-logo{
+	float:left;
+}
+.xibiao{
+	float:right;
+}
+.yusi-mono,.xibiao1,.xibiao2 {
+	position: absolute;
+	letter-spacing: 0px;
+	margin-left: 0.2em;
+	color: #FFF;
+	text-shadow: 2px 1px 4px rgba(12, 103, 103, 0.8);
+	margin-top: 2px;
+	padding: 0px;
+	z-index: 0;
+	transition: all 0.5s ease-out 0s;
+}
+.yusi-mono{
+	font-size: 28px;
+}
+.xibiao1,.xibiao2 {
+	font-size: 28px;
+}
+span.xibiao1 {
+    right: 5%;
+}
+span.xibiao2 {
+    right: 1%;
+    top: 30px;
+}
+.yusi-mono{
+	top:35px;
+}
+
+.yusi-bloger {
+	position: absolute;
+	color: #FFF;
+	
+	
+
+}
+.bloger1,.bloger2{
+	top: 6px;
+	font-size: 24px;
+}
+.bloger1
+{
+	left:100px;
+	font-weight: 500;
+}
+.bloger2
+{
+	left: 260px;
+	font-weight: 500;
+}
+.bloger3,.bloger4,.bloger5{
+	font-weight: normal;
+	
+
+}
+.bloger3{
+   left: 77px;
+   top: 70px;
+   font-size: 20px;
+   letter-spacing: 1px;
+}
+.bloger4{
+left: 77px;
+   top:90px;
+   font-size: 20px;
+}
+.bloger5{
+	left: 77px;
+   	top: 110px;
+   	font-size: 20px;
+}
+.head-logo a img {
+	transition: all 1s ease-out 0s;
+	width:70px;
+}
+.head-logo:hover a img {
+	opacity: .4;
+}
+.xibiao:hover .xibiao1,.xibiao:hover .xibiao2{
+	letter-spacing: 0.08em;
+	text-shadow: 5px 3px 10px #026C2B;
+}

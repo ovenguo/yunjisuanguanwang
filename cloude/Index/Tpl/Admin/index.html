@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content>
+        <title>云计算官网管理系统</title>
+        <link rel="icon" href="__Public__/bootstrap-3.3.4-dist/css/ie10-viewport-bug-workaround.css">
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" href="__Public__/bootstrap-3.3.4-dist/css/starter-template.css">
+        <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+        <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <script src="__Public__/bootstrap-3.3.4-dist/js/ie-emulation-modes-warning.js"></script>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <style id="holderjs-style" type="text/css">
+            .holderjs-fluid {
+                font-size:16px;
+                font-weight:bold;
+                text-align:center;
+                font-family:sans-serif;
+                margin:0
+            }
+        </style>
+        <style>
+            #yddContainer {
+                display: block;
+                font-family: Microsoft YaHei;
+                position: relative;
+                width: 100%;
+                height: 100%;
+                top: -4px;
+                left: -4px;
+                font-size: 12px;
+                border: 1px solid
+            }
+            #yddTop {
+                display: block;
+                height: 22px
+            }
+            #yddTopBorderlr {
+                display: block;
+                position: static;
+                height: 17px;
+                padding: 2px 28px;
+                line-height: 17px;
+                font-size: 12px;
+                color: #5079bb;
+                font-weight: bold;
+                border-style: none solid;
+                border-width: 1px
+            }
+            #yddTopBorderlr .ydd-sp {
+                position: absolute;
+                top: 2px;
+                height: 0;
+                overflow: hidden
+            }
+            .ydd-icon {
+                left: 5px;
+                width: 17px;
+                padding: 0px 0px 0px 0px;
+                padding-top: 17px;
+                background-position: -16px -44px
+            }
+            .ydd-close {
+                right: 5px;
+                width: 16px;
+                padding-top: 16px;
+                background-position: left -44px
+            }
+            #yddKeyTitle {
+                float: left;
+                text-decoration: none
+            }
+            #yddMiddle {
+                display: block;
+                margin-bottom: 10px
+            }
+            .ydd-tabs {
+                display: block;
+                margin: 5px 0;
+                padding: 0 5px;
+                height: 18px;
+                border-bottom: 1px solid
+            }
+            .ydd-tab {
+                display: block;
+                float: left;
+                height: 18px;
+                margin: 0 5px -1px 0;
+                padding: 0 4px;
+                line-height: 18px;
+                border: 1px solid;
+                border-bottom: none
+            }
+            .ydd-trans-container {
+                display: block;
+                line-height: 160%
+            }
+            .ydd-trans-container a {
+                text-decoration: none;
+            }
+            #yddBottom {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 22px;
+                line-height: 22px;
+                overflow: hidden;
+                background-position: left -22px
+            }
+            .ydd-padding010 {
+                padding: 0 10px
+            }
+            #yddWrapper {
+                color: #252525;
+                z-index: 10001;
+                background: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);
+            }
+            #yddContainer {
+                background: #fff;
+                border-color: #4b7598
+            }
+            #yddTopBorderlr {
+                border-color: #f0f8fc
+            }
+            #yddWrapper .ydd-sp {
+                background-image: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)
+            }
+            #yddWrapper a, #yddWrapper a:hover, #yddWrapper a:visited {
+                color: #50799b
+            }
+            #yddWrapper .ydd-tabs {
+                color: #959595
+            }
+            .ydd-tabs, .ydd-tab {
+                background: #fff;
+                border-color: #d5e7f3
+            }
+            #yddBottom {
+                color: #363636
+            }
+            #yddWrapper {
+                min-width: 250px;
+                max-width: 400px;
+            }
+        </style>
+        <style id="style-1-cropbar-clipper">
+            /* Copyright 2014 Evernote Corporation. All rights reserved. */
+            .en-markup-crop-options {
+                top: 18px !important;
+                left: 50% !important;
+                margin-left: -100px !important;
+                width: 200px !important;
+                border: 2px rgba(255, 255, 255, .38) solid !important;
+                border-radius: 4px !important;
+            }
+            .en-markup-crop-options div div:first-of-type {
+                margin-left: 0px !important;
+            }
+        </style>
+        
+        <!--富文本编辑器-->
+        <link rel="stylesheet" href="__Public__/bootstrap-3.3.4-dist/css/bootstrap-responsive.min.css">
+        <link rel="stylesheet" href="__Public__/bootstrap-3.3.4-dist/css/bootstrap-combined.no-icons.min.css">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="__Public__/bootstrap-wysiwyg-master/index.css">
+        <!--侧边栏-->
+        <link rel="stylesheet" href="__Public__/bootstrap-3.3.4-dist/css/docs-cn.css">
+        <link rel="stylesheet" href="__Public__/bootstrap-3.3.4-dist/css/docs.css">
+        <link rel="stylesheet" href="__Public__/bootstrap-3.3.4-dist/css/bootstrap-responsive.css">
+        <!--主要css文件-->
+        <link rel="stylesheet" href="__Public__/bootstrap-3.3.4-dist/css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" href="__Public__/bootstrap-3.3.4-dist/css/bootstrap.css"/>
+        <link rel="stylesheet" href="__Public__/bootstrap-3.3.4-dist/css/bootstrap.css.map">
+        <link rel="stylesheet" href="__Public__/bootstrap-3.3.4-dist/css/prettify.css">
+        <link rel="stylesheet" href="__Public__/bootstrap-3.3.4-dist/css/starter-template.css">
+    </head>
+
+
+    <body data-gr-c-s-loaded="true" data-spy="scroll" data-target=".bs-docs-sidebar" data-gr-c-s-loaded="true" style="position: static;">
+
+        <!--标题栏-->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand"><strong>云计算后台管理系统</strong></a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">首页</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+        
+        <!--侧边栏-->
+
+
+        <!--主体内容-->
+        <div class="container">
+            
+            <div class="tabbable tabs-left"><!--Only required for left/right tabs -->
+                <!--侧边栏-->
+                <ul class="nav nav-tabs">
+                    <li class><a href="#1A" data-toggle="tab">新闻发布</a></li>
+                    <li class><a href="#2B" data-toggle="tab">公告发布</a></li>
+                    <li class><a href="#3C" data-toggle="tab">党团活动</a></li>
+                </ul>
+                <!--侧边栏内容框架-->
+                <div class="tab-content">
+                    <!--新闻发布-->
+                    <div class="tab-pane" id="1A">
+                        <div><input type="text" style="height: 16px; top: 100px; float: "></div>
+                        <iframe src="__URL__/wysiwyg" frameborder="0" width="100%" height="710" scrolling="no"></iframe>
+                    </div>
+                    
+                    <!--公告发布-->
+                    <div class="tab-pane" id="2B">
+                        <iframe src="__URL__/wysiwyg" frameborder="0" width="100%" height="710" scrolling="no"></iframe>
+                    </div>
+                    
+                    <!--党团活动-->
+                    <div class="tab-pane" id="3C">
+                        <iframe src="__URL__/wysiwyg" frameborder="0" width="100%" height="710" scrolling="no"></iframe>
+                    </div>
+                </div>           
+            </div>
+        </div>
+        <!-- /.container -->
+
+
+        <!--底部-->
+        <footer class="footer">
+            <div class="contianer">
+                <p><a href="">@电子科技大学成都学院</a></p>
+                <p><a href="">云计算科学与技术系</a></p>
+                <p>Power by <a href="">@MSTC工作室</a></p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="__Public__/JQury/jquery-1.12.1.min.js"></script>
+        <script src="__Public__/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="__Public__/bootstrap-3.3.4-dist/js/npm.js"></script>
+        <!--富文本编辑器-->
+        <script src="__Public__/bootstrap-wysiwyg-master/bootstrap-wysiwyg.js"></script>
+        <script src="__Public__/bootstrap-wysiwyg-master/external/jquery.hotkeys.js"></script>
+    </body>
+</html>
